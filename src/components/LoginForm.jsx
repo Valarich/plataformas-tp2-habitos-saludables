@@ -48,18 +48,6 @@ function LoginForm({ usuarios, onLogin }) {
 
         <button type="submit">Ingresar</button>
       </form>
-
-      <div className="demo-users">
-        <h3>Usuarios de prueba</h3>
-
-        <p>
-          <strong>Administrador:</strong> admin@habitos.com / 1234
-        </p>
-
-        <p>
-          <strong>Usuario:</strong> usuario@habitos.com / 1234
-        </p>
-      </div>
     </section>
   );
 }
